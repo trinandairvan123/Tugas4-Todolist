@@ -1,0 +1,23 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+form {
+  max-width: 1440px;  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+h1 {
+  background: linear-gradient(to right, yellow 10%, blue 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
